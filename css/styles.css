@@ -185,7 +185,7 @@ Features Section Styles
 
 .features {
   background-color: var(--clr-neurtral-400);
-  padding: 10rem 0 2.5rem 0;
+  padding: 10rem 0 3.5rem 0;
   position: relative;
 }
 
@@ -324,7 +324,7 @@ Media Query - Tablet and Desktop
 
   /* Features Section */
   .features {
-    padding: 14rem 0 2.5rem 0;
+    padding: 14.5rem 0 5.25rem 0;
   }
 
   .features .container {
@@ -446,7 +446,7 @@ Media Query - Desktop
   }
 
   .features {
-    padding: 19rem 0 2.5rem 0;
+    padding: 19.5rem 0 7.5rem 0;
   }
 
   .feature {
