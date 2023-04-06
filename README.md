@@ -27,7 +27,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 
 ### Links
-- Live Site URL: 
+- Live Site URL: https://bucolic-daifuku-0e2b9e.netlify.app
 
 
 ## My process
