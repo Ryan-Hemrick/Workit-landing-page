@@ -71,7 +71,6 @@ p {
 }
 
 
-
 /* ====================================
 General Styles:
 ==================================== */
@@ -330,6 +329,7 @@ Media Query - Tablet and Desktop
   }
 
   /* Features Section */
+  
   .features {
     padding: 14.5rem 0 5.25rem 0;
   }
