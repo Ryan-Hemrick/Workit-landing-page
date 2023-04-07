@@ -221,6 +221,7 @@ Features Section Styles
 
 .feature__desc {
   line-height: 1.75;
+  color: var(--clr-neutral-700);
 }
 
 .features::before {
@@ -329,7 +330,7 @@ Media Query - Tablet and Desktop
   }
 
   /* Features Section */
-  
+
   .features {
     padding: 14.5rem 0 5.25rem 0;
   }
