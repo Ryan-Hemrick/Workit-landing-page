@@ -48,6 +48,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 - How to navigate *Figma* at a basic level (this was my first time using and navigating Figma)
 - What to look for in a *style guide*, and how to translate that guide into reusable CSS properties and variables
 - A basic solution to creating overlapping elements that are also responsive
+- Working with *variable fonts*
 
 
 ## Author
