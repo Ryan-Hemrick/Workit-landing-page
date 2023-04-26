@@ -132,6 +132,11 @@ header {
   padding-bottom: 8.5rem;
 }
 
+header .container {
+  position: relative;
+  z-index: 5;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -178,10 +183,11 @@ header::before {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1.5rem;
-  height: 3rem;
-  border-radius: 50%;
-  z-index: 5;
+  right: 0;
+  bottom: -1.125rem;
+  height: 5rem;
+  z-index: 1;
+  clip-path: ellipse(90% 100% at 50% 0);
 }
 
 
@@ -329,6 +335,11 @@ Media Query - Tablet and Desktop
     width: 514px;
   }
 
+  header::before {
+    bottom: -1.75rem;
+    clip-path: ellipse(80% 100% at 50% 0);  
+  }
+
   /* Features Section */
 
   .features {
@@ -440,6 +451,11 @@ Media Query - Desktop
   header {
     padding-bottom: 16.5rem;
     background-position: -140px 37%, calc(100% + 48px) 72%;
+  }
+
+  header::before {
+    clip-path: ellipse(60% 100% at 50% 0);
+    bottom: -4.25rem;
   }
 
   .hero__img img {
